@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Users API Suite">
+    <listeners>
+        <listener class-name="ge.qa.listener.ResultListener"/>
+    </listeners>
+    <test name="Users API filtering tests">
+        <classes>
+            <class name="ge.qa.tests.UsersApiTest"/>
+        </classes>
+    </test>
+</suite>
